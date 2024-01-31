@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+.contenedor-scroll{
+    height: 5000px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    margin-top: 50px;
+}
+
+.texto-contenedor-scroll{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.texto-contenedor-scroll p {
+    padding-top: 30px;
+}
+
+.ejemplo-getBoundingClinRect{
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.caja-azul{
+    margin-top: 1500px;
+    height: 300px;
+    width: 300px;
+    color:white;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ubicacion{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+}
